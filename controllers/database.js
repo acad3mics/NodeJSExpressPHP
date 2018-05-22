@@ -29,7 +29,7 @@ module.exports.storeData = function(req, res) {
             return;
         }
 
-        var db = client.db('project2'); // project2 is our mLab database
+        var db = client.db('heroku_70t10d2p'); // project2 is our mLab database
 
         // Generate unique IDs for the different mongo collections we will create document in
         var customerID = Math.floor((Math.random() * 1000000000000) + 1);
